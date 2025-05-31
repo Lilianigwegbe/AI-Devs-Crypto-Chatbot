@@ -1,25 +1,19 @@
-# AI-Devs-Crypto-Chatbot
-
 #  CryptoBuddy (An AI Enabled Crypto Guide)
 
 CryptoBuddy is a **rule-based Python chatbot** that allowss users to assess cryptocurrency investment prospects based on **profitability** and **sustainability**. It responds to user enquiries like these using basic `if-else` logic:
 
-> “Which crypto is trending up?”  
-> “What’s the most sustainable coin?”  
-> “Which crypto should I buy for long-term growth?”
-
----
+1. “Which crypto is trending up?”  
+2. “What’s the most sustainable coin?”  
+3. “Which crypto should I buy for long-term growth?”
 
 ##  Features
 
--  Python `input()` dialog interface with a friendly tone.
--  Uses conditional logic to evaluate predefined data, simulating AI decision-making. 
+-  Dialog interface with a friendly tone using Python `input()`.
+-  Uses conditional logic to evaluate predefined data.
 -  Suggests cryptocurrencies based on market capitalization and price trends.
 -  Evaluates sustainability using a score and energy consumption.
 -  Provides personalised suggestions without the need of sophisticated algorithms.
 -  "Crypto is risky—always do your own research!" is added as a disclaimer.
-
----
 
 ## How It Works
 
