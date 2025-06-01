@@ -1,3 +1,4 @@
+crypto_db= {
 "Bitcoin": {
         "price_trend": "rising",
         "market_cap": "high",
