@@ -37,3 +37,11 @@ Clone this repo
 
 Run main.py using Python 3
 
+##Conclusion
+
+CryptoBuddy demonstrates how simple rule-based logic can be applied to create an engaging and informative chatbot experience.
+
+While it operates on a basic predefined dataset, it serves as a strong foundation for expanding into more advanced AI-driven financial advisory tools in the future.
+
+The project highlights the potential of conversational interfaces in making complex topics like cryptocurrency more accessible to everyday users.
+
