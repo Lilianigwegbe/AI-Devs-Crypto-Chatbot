@@ -1,31 +1,19 @@
-crypto_db= {
-"Bitcoin": {
-        "price_trend": "rising",
-        "market_cap": "high",
-        "energy_use": "high",
-        "sustainability_score": 3/10
-    },
-    "Ethereum": {
-        "price_trend": "stable",
-        "market_cap": "high",
-        "energy_use": "medium",
-        "sustainability_score": 6/10
-    },
-    "Cardano": {
-        "price_trend": "rising",
-        "market_cap": "medium",
-        "energy_use": "low",
-        "sustainability_score": 8/10
-    }
-}
+# Crypto Buddy Bot
+# Crypto Bot: A fun and informative chatbot for crypto enthusiasts!
+# This bot helps users find trending, sustainable, and long-term growth cryptocurrencies.
+# It uses a simple database of cryptocurrencies to provide recommendations based on user queries.
+# Import the crypto database
+import crypto_db
+# Define the crypto bot function
 def crypto_bot():
     print("Yo, I’m CryptoBuddy! 🚀 Ask me about cryptos, and I’ll drop some knowledge!")
     print("Try: 'Which crypto is trending up?' or 'What’s the most sustainable coin?'")
     
     while True:
-        user_query = input("\nWhat’s your crypto question? (Type 'exit' to quit): ").lower()
+        user_query = input("\nWhat’s your crypto question? (Type 'exit' or 'q' to quit): ").lower()
         
-        if user_query == "exit":
+        if user_query == "exit" or user_query == "q":
+            # Exit the bot
             print("Peace out! Stay safe in the crypto jungle! ✌️")
             break
         
