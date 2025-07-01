@@ -15,6 +15,10 @@ CryptoBuddy is a **rule-based Python chatbot** that allowss users to assess cryp
 -  Provides personalised suggestions without the need of sophisticated algorithms.
 -  "Crypto is risky—always do your own research!" is added as a disclaimer.
 
+## Collaboration:
+
+This assignment was completed by a group of five members. You can find more details of the group members and their contributions at team/contributions.md.
+
 ## How It Works
 
 The chatbot uses a **predefined dataset** that contains information on three cryptocurrencies:
